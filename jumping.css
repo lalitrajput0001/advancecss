@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ball{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: grey;
+    border-radius: 50%;
+    /* transition: all .5s ease-in-out .3s; */
+    animation-duration: 5s;
+    animation-name: jumpingball;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes jumpingball{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    10%{
+        top: 10;
+        left: 40px;
+    }
+    30%{
+        top: 40px;
+        left: 80px;
+    }
+    50%{
+        top: 100%;
+        left: 300px;
+    }
+    60%{
+        top: 80%;
+        left: 350px;
+    }
+     70%{
+        top: 70%;
+        left: 450px;
+    }
+     75%{
+        top: 40%;
+        left: 550px;
+    } 
+    80%{
+        top: 70%;
+        left: 800px;
+    }
+    85%{
+        top: 80%;
+        left: 900px;
+    }
+    90%{
+        top: 100%;
+        left: 1000px;
+    }
+    95%{
+        top: 80%;
+        left: 1050px;
+    }
+    100%{
+        top: 100%;
+        left: 1100px;
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+       
+    }
+}

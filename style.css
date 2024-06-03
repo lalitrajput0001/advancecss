@@ -1,0 +1,17 @@
+:root{
+    --color: green;
+    --primary-font-size:2em;
+    --secondary-font-size:1.5em;
+
+}
+h1, h2, h3, h4{
+    color: var(--color);
+    font-size: var(--primary-font-size);
+}
+.container{
+    --local-color:red;
+    --font-size:2em;
+
+    color: var(--local-color);
+    font-size: var(--font-size);
+}
